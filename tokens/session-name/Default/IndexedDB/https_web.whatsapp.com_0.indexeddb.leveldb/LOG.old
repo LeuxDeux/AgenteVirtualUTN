@@ -1,0 +1,12 @@
+2023/11/09-20:17:58.321 3fa4 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/09-20:17:58.321 3fa4 Recovering log #53
+2023/11/09-20:17:58.355 3fa4 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000053.log 
+2023/11/09-20:18:18.647 1530 Level-0 table #58: started
+2023/11/09-20:18:18.667 1530 Level-0 table #58: 1278724 bytes OK
+2023/11/09-20:18:18.668 1530 Delete type=0 #53
+2023/11/09-20:18:19.195 3740 Compacting 1@1 + 1@2 files
+2023/11/09-20:18:19.269 3740 Generated table #59@1: 37942 keys, 1330291 bytes
+2023/11/09-20:18:19.269 3740 Compacted 1@1 + 1@2 files => 1330291 bytes
+2023/11/09-20:18:19.269 3740 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/09-20:18:19.270 3740 Delete type=2 #55
+2023/11/09-20:18:19.270 3740 Delete type=2 #58
