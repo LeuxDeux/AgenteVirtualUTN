@@ -47,20 +47,38 @@ function start(client) {
           response.text.text[0] = "Contamos con Dirección y gestión de empresas agroindustriales: https://www.frrq.utn.edu.ar/carreras/pdgea/";
         }
         if (response.text.text[0].startsWith("Carreras a distancia 🌐:")){ //Carreras_Distancia
-          response.text.text[0] = "Contamos con: \n Tecnicatura Universitaria en Tecnologías de la Información: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/tuti-online/ \n Licenciatura en Tecnologías Inclusivas en Educación: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/ltie-online/ \n Tecnicatura Universitaria en Ciudades Inteligentes: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/tuci-online/ \n Tecnicatura Universitaria en Administración: https://frrq.utn.centrodeelearning.com/detalle/carrera/804/tecnicatura-universitaria-en-administracion \n Licenciatura en Logística: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/ll-online/ \n Tecnicatura Universitaria en Higiene y Seguridad en el Trabajo: https://frrq.utn.centrodeelearning.com/detalle/carrera/648/tecnicatura-universitaria-en-higiene-y-seguridad-en-el-trabajo \n Licenciatura en Tecnología Educativa: https://frrq.utn.centrodeelearning.com/detalle/carrera/1235/licenciatura-en-tecnologia-educativa \n Tecnicatura Universitaria en Logística: https://frrq.utn.centrodeelearning.com/detalle/carrera/2407/tecnicatura-universitaria-en-logistica?id=999192906";
+          response.text.text[0] = "Contamos con: \n Tecnicatura Universitaria en Tecnologías de la Información: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/tuti-online/ \nLicenciatura en Tecnologías Inclusivas en Educación: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/ltie-online/ \nTecnicatura Universitaria en Ciudades Inteligentes: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/tuci-online/ \nTecnicatura Universitaria en Administración: https://frrq.utn.centrodeelearning.com/detalle/carrera/804/tecnicatura-universitaria-en-administracion \nLicenciatura en Logística: https://www.frrq.utn.edu.ar/carreras/carreras-a-distancia/ll-online/ \nTecnicatura Universitaria en Higiene y Seguridad en el Trabajo: https://frrq.utn.centrodeelearning.com/detalle/carrera/648/tecnicatura-universitaria-en-higiene-y-seguridad-en-el-trabajo \nLicenciatura en Tecnología Educativa: https://frrq.utn.centrodeelearning.com/detalle/carrera/1235/licenciatura-en-tecnologia-educativa \nTecnicatura Universitaria en Logística: https://frrq.utn.centrodeelearning.com/detalle/carrera/2407/tecnicatura-universitaria-en-logistica?id=999192906";
         }
         if (response.text.text[0].startsWith("Tecnicaturas 👨‍💻👩‍💻:")){ //Carreras_Tecnicaturas
-          response.text.text[0] = "Contamos con: \n Tecnicatura Univ. en Higiene y Seguridad en el trabajo: https://www.frrq.utn.edu.ar/carreras/tuhst/ \n Tecnicatura Univ. en Mecatrónica: https://www.frrq.utn.edu.ar/carreras/tum/ \n Tecnicatura Univ. en Programación: https://www.frrq.utn.edu.ar/carreras/tup/";
+          response.text.text[0] = "Contamos con: \n Tecnicatura Univ. en Higiene y Seguridad en el trabajo: https://www.frrq.utn.edu.ar/carreras/tuhst/ \nTecnicatura Univ. en Mecatrónica: https://www.frrq.utn.edu.ar/carreras/tum/ \nTecnicatura Univ. en Programación: https://www.frrq.utn.edu.ar/carreras/tup/";
         }
         if (response.text.text[0].startsWith("Aquí tienes enlaces para ir al módulo de autogestión 👇:")){ //Respuesta_Autogestion
-          response.text.text[0] = "Aquí tienes enlaces para ir al módulo de autogestión 👇:\n Docente: http://www3.frrq.utn.edu.ar/sysacadweb/logindocente.asp \n Alumno: http://www3.frrq.utn.edu.ar/sysacadweb/loginalumno.asp";
+          response.text.text[0] = "Aquí tienes enlaces para ir al módulo de autogestión 👇:\nDocente: http://www3.frrq.utn.edu.ar/sysacadweb/logindocente.asp \nAlumno: http://www3.frrq.utn.edu.ar/sysacadweb/loginalumno.asp";
         }
         //Respuesta_Legajo no hace falta cambiar su respuesta ya que no es un custom payload, sino que es texto plano
         if (response.text.text[0].startsWith("Estas son nuestras redes sociales 💻👇:")){ //Respuesta_RedesSociales
-          response.text.text[0] = "Facebook: https://www.facebook.com/utnreconquista \n Instagram: https://www.instagram.com/utnreconquista/ \n Sitio Web: https://www.frrq.utn.edu.ar/";
+          response.text.text[0] = "Facebook: https://www.facebook.com/utnreconquista \n Instagram: https://www.instagram.com/utnreconquista/ \nSitio Web: https://www.frrq.utn.edu.ar/";
         }
         if (response.text.text[0].startsWith("Sigue el enlace para ver donde se ubica la universidad:")){ //Respuesta_Ubicacion
           response.text.text[0] = "Sigue el enlace para ver donde se ubica la universidad: https://maps.app.goo.gl/pvn1PmLPDrNszguv8";
+        }
+        if (response.text.text[0].startsWith("Puedes echarle un vistazo al reglamento de estudio a través de este enlace 👇:")){ //21_DF_ReglamentoEstudio
+          response.text.text[0] = "Puedes echarle un vistazo al reglamento de estudio a través de este enlace 👇:\nhttp://csu.rec.utn.edu.ar/docs/php/salida.php3?tipo=ORD&numero=1549&anio=0&facultad=CSU";
+        }
+        if (response.text.text[0].startsWith("En el siguiente link podes ver los turnos de las mesas de examen ✍📅:")){ //7_DF_HorariosFechas
+          response.text.text[0] = "En el siguiente link podes ver los turnos de las mesas de examen ✍📅:\nHorarios: https://bit.ly/3OxZQh9"
+        }
+        if (response.text.text[0].startsWith("Una vez inscripto al cursado, desde Alumnado se le darán los accesos a la plataforma virtual, el ingreso se realiza con el número de DNI en USUARIO y CONTRASEÑA. Aquí tienes un enlace directo a Moodle 👇:")){ //8_DF_Moodle
+          response.text.text[0] = "Una vez inscripto al cursado, desde Alumnado se le darán los accesos a la plataforma virtual, el ingreso se realiza con el número de DNI en USUARIO y CONTRASEÑA. Aquí tienes un enlace directo a Moodle 👇:\nMoodle: https://frrq.cvg.utn.edu.ar"
+        }
+        if (response.text.text[0].startsWith("Deberás ingresar al Autogestión Alumnos a través de la página de la Facultad e inscribirte a la asignatura que quieras rendir. Recuerda que puedes inscribirte o cancelar tu inscripción hasta las 13 hs. del día anterior a la fecha de examen.")){ //9_DF_InscripcionRendir
+          response.text.text[0] = "Deberás ingresar al Autogestión Alumnos a través de la página de la Facultad e inscribirte a la asignatura que quieras rendir. Recuerda que puedes inscribirte o cancelar tu inscripción hasta las 13 hs. del día anterior a la fecha de examen.\nAutogestión Alumnos: http://www3.frrq.utn.edu.ar/sysacadweb/loginalumno.asp"
+        }
+        if (response.text.text[0].startsWith("Recuerda que si eres un alumno activo en la facultad, debes inscribirte a las materias a través de tu autogestión")) { //10_DF_InscripcionMaterias
+          response.text.text[0] = "Recuerda que si eres un alumno activo en la facultad, debes inscribirte a las materias a través de tu autogestión (la inscripción no se realiza de manera automática, así que deberás inscribirte al cursado de las asignaturas ANTES del inicio de cada cuatrimestre). Si no sabes tu legajo y/o tu contraseña o si no sabes como operar la interfaz de autogestión, comuníquese con alumnado:  📱  3482 – 751911 (Celular) // 📞  3482 – 420048 Int. 8201 (de 9 a 21 hs) // 📧  auxalumnado@frrq.utn.edu.ar (correo)\nAutogestión Alumnos: http://www3.frrq.utn.edu.ar/sysacadweb/loginalumno.asp"
+        }
+        if (response.text.text[0].startsWith("La universidad dispone de una amplia variedad de cursos online, todos tienen un costo a abonar por cuotas. Para saber sobre el tipo de curso y su costo, más información adicional, ingrese a los siguientes enlaces 👇:")){ //13_DF_CursosOnline
+          response.text.text[0] = "La universidad dispone de una amplia variedad de cursos online, todos tienen un costo a abonar por cuotas. Para saber sobre el tipo de curso y su costo, más información adicional, ingrese a los siguientes enlaces 👇:\nAprender Online UTN: https://aprenderonline.frrq.utn.edu.ar \nCentro de learning UTN: https://frrq.utn.centrodeelearning.com";
         }
         //////
         
