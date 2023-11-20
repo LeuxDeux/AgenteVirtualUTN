@@ -65,8 +65,8 @@ function start(client) {
         if (response.text.text[0].startsWith("Puedes echarle un vistazo al reglamento de estudio a través de este enlace 👇:")){ //21_DF_ReglamentoEstudio
           response.text.text[0] = "Puedes echarle un vistazo al reglamento de estudio a través de este enlace 👇:\nhttp://csu.rec.utn.edu.ar/docs/php/salida.php3?tipo=ORD&numero=1549&anio=0&facultad=CSU";
         }
-        if (response.text.text[0].startsWith("En el siguiente link podes ver los turnos de las mesas de examen ✍📅:")){ //7_DF_HorariosFechas
-          response.text.text[0] = "En el siguiente link podes ver los turnos de las mesas de examen ✍📅:\nHorarios: https://bit.ly/3OxZQh9"
+        if (response.text.text[0].startsWith("En el siguiente link podes ver las fechas con horarios de cátedras y las fechas de exámenes ✍📅:")){ //7_DF_HorariosFechas
+          response.text.text[0] = "En el siguiente link podes ver las fechas con horarios de cátedras y las fechas de exámenes ✍📅:\nHorarios: https://bit.ly/3OxZQh9"
         }
         if (response.text.text[0].startsWith("Una vez inscripto al cursado, desde Alumnado se le darán los accesos a la plataforma virtual, el ingreso se realiza con el número de DNI en USUARIO y CONTRASEÑA. Aquí tienes un enlace directo a Moodle 👇:")){ //8_DF_Moodle
           response.text.text[0] = "Una vez inscripto al cursado, desde Alumnado se le darán los accesos a la plataforma virtual, el ingreso se realiza con el número de DNI en USUARIO y CONTRASEÑA. Aquí tienes un enlace directo a Moodle 👇:\nMoodle: https://frrq.cvg.utn.edu.ar"

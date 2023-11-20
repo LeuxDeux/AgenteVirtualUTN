@@ -1,25 +1,3 @@
-2023/11/17-21:18:01.190 13a4 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/17-21:18:01.190 13a4 Recovering log #110
-2023/11/17-21:18:01.195 13a4 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000110.log 
-2023/11/17-21:18:01.195 13a4 Delete type=2 #109
-2023/11/17-21:18:11.851 42a4 Level-0 table #115: started
-2023/11/17-21:18:11.855 42a4 Level-0 table #115: 163014 bytes OK
-2023/11/17-21:18:11.856 42a4 Delete type=0 #110
-2023/11/17-21:18:11.859 13a4 Manual compaction at level-0 from '\x00.\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 125158 : 1
-2023/11/17-21:18:11.860 13a4 Compacting 1@0 + 1@1 files
-2023/11/17-21:18:11.902 13a4 Generated table #116@0: 62620 keys, 1247445 bytes
-2023/11/17-21:18:11.902 13a4 Compacted 1@0 + 1@1 files => 1247445 bytes
-2023/11/17-21:18:11.903 13a4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/11/17-21:18:11.903 13a4 Delete type=2 #115
-2023/11/17-21:18:11.903 13a4 Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 125158 : 1 .. '\x00/\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/11/17-21:18:11.909 13a4 Level-0 table #118: started
-2023/11/17-21:18:11.917 13a4 Level-0 table #118: 479 bytes OK
-2023/11/17-21:18:11.918 13a4 Delete type=2 #112
-2023/11/17-21:18:11.918 13a4 Delete type=0 #114
-2023/11/17-21:18:11.918 13a4 Manual compaction at level-0 from '\x00/\x00\x00\x00' @ 72057594037927935 : 1 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at '\x00/\x00\x00\x05' @ 125191 : 0
-2023/11/17-21:18:11.918 13a4 Compacting 1@0 + 1@1 files
-2023/11/17-21:18:11.958 13a4 Generated table #119@0: 62618 keys, 1247427 bytes
-2023/11/17-21:18:11.958 13a4 Compacted 1@0 + 1@1 files => 1247427 bytes
-2023/11/17-21:18:11.958 13a4 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/11/17-21:18:11.958 13a4 Delete type=2 #118
-2023/11/17-21:18:11.959 13a4 Manual compaction at level-0 from '\x00/\x00\x00\x05' @ 125191 : 0 .. '\x000\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/11/20-18:18:19.079 32b8 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/20-18:18:19.080 32b8 Recovering log #145
+2023/11/20-18:18:19.094 32b8 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000145.log 
