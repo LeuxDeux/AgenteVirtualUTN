@@ -1,3 +1,12 @@
-2023/11/20-18:19:34.772 4a34 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/20-18:19:34.772 4a34 Recovering log #145
-2023/11/20-18:19:34.794 4a34 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000145.log 
+2023/11/23-14:20:28.594 4080 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/23-14:20:28.598 4080 Recovering log #149
+2023/11/23-14:20:28.637 4080 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000149.log 
+2023/11/23-14:20:43.940 3998 Level-0 table #154: started
+2023/11/23-14:20:43.963 3998 Level-0 table #154: 1035632 bytes OK
+2023/11/23-14:20:43.965 3998 Delete type=0 #149
+2023/11/23-14:20:43.973 3998 Compacting 1@1 + 1@2 files
+2023/11/23-14:20:44.045 3998 Generated table #155@1: 67521 keys, 2181398 bytes
+2023/11/23-14:20:44.046 3998 Compacted 1@1 + 1@2 files => 2181398 bytes
+2023/11/23-14:20:44.046 3998 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/23-14:20:44.046 3998 Delete type=2 #151
+2023/11/23-14:20:44.046 3998 Delete type=2 #154
