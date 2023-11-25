@@ -5,7 +5,6 @@
 const uuid = require("uuid");
 const venom = require('venom-bot');
 const dialogflow=require("./dialogflow");
-const { promiseHooks } = require('v8');
 //asociar ID diferente para cada numero de wssp
 const sessionIds = new Map();
 /////////////////////////////////////////
