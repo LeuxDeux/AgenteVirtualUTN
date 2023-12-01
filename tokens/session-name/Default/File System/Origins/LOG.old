@@ -1,3 +1,5 @@
-2023/11/23-14:20:28.655 2914 Reusing MANIFEST C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\File System\Origins/MANIFEST-000001
-2023/11/23-14:20:28.659 2914 Recovering log #3
-2023/11/23-14:20:28.659 2914 Reusing old log C:\Users\lauti\OneDrive\Escritorio\whatsappbotprueba\tokens\session-name\Default\File System\Origins/000003.log 
+2023/11/29-22:05:58.662 36b0 Log #3: 3 ops saved to Table #4 OK
+2023/11/29-22:05:58.663 36b0 Archiving C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/000003.log: OK
+2023/11/29-22:05:58.664 36b0 Table #4: 3 entries OK
+2023/11/29-22:05:58.665 36b0 Archiving C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/MANIFEST-000001: OK
+2023/11/29-22:05:58.671 36b0 **** Repaired leveldb C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins; recovered 1 files; 181 bytes. Some data may have been lost. ****
