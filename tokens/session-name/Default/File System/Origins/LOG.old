@@ -1,5 +1,5 @@
-2023/11/29-22:05:58.662 36b0 Log #3: 3 ops saved to Table #4 OK
-2023/11/29-22:05:58.663 36b0 Archiving C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/000003.log: OK
-2023/11/29-22:05:58.664 36b0 Table #4: 3 entries OK
-2023/11/29-22:05:58.665 36b0 Archiving C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/MANIFEST-000001: OK
-2023/11/29-22:05:58.671 36b0 **** Repaired leveldb C:\Users\lauti\OneDrive\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins; recovered 1 files; 181 bytes. Some data may have been lost. ****
+2023/12/07-14:39:14.838 3418 Log #6: 0 ops saved to Table #7 OK
+2023/12/07-14:39:14.839 3418 Archiving C:\Users\zacarias\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/000006.log: OK
+2023/12/07-14:39:14.840 3418 Table #4: 3 entries OK
+2023/12/07-14:39:14.848 3418 Archiving C:\Users\zacarias\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins/MANIFEST-000001: OK
+2023/12/07-14:39:14.861 3418 **** Repaired leveldb C:\Users\zacarias\Documents\GitHub\AgenteVirtualUTN\tokens\session-name\Default\File System\Origins; recovered 1 files; 181 bytes. Some data may have been lost. ****
